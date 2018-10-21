@@ -1,0 +1,6 @@
+<!--testpage.wxml-->
+<view class="container log-list">
+  <block>
+    <text >TestPage</text>
+  </block>
+</view>

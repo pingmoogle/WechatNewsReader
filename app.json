@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/testpage",
+    "pages/user/userdate"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF7204",
+    "navigationBarTitleText": "文章阅读推荐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "source/icons/titlepage-icons/home.png",
+        "selectedIconPath": "source/icons/titlepage-icons/home.png",
+        "text": "热点"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "source/icons/titlepage-icons/top.png",
+        "selectedIconPath": "source/icons/titlepage-icons/top.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/test/testpage",
+        "iconPath": "source/icons/titlepage-icons/star.png",
+        "selectedIconPath": "source/icons/titlepage-icons/star.png",
+        "text": "收藏"
+      },
+      {
+        "pagePath": "pages/user/userdate",
+        "iconPath": "source/icons/titlepage-icons/user.png",
+        "selectedIconPath": "source/icons/titlepage-icons/user.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
